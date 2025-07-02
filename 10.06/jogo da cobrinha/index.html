@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <div id="score">Pontuação: 0</div>
+            <div id="highScore">Recorde: 0</div>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="gameOver" class="game-over">Game Over! Pressione ESPAÇO para reiniciar</div>
+        <div id="wallCollision" class="wall-collision">Ops! Pressione ESPAÇO para continuar</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

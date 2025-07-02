@@ -1,0 +1,61 @@
+:root {
+    --bg: #ffaeee;
+    --text: #000000;
+    --card: #ff5eb6;
+    --accent: #a10079;
+}
+body.dark {
+    --bg: rgb(196, 134, 255);
+    --text: #000000;
+    --card: #9500c2;
+    --accent: #30003f;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: var(--card);
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+#toggleTheme {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--text);
+    cursor: pointer
+}
+#display {
+    margin-top: 20px;
+}
+.tecla {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px dashed var(--accent);
+    border-radius: 12222222px;
+    margin-bottom: 30px;
+    transition: all 0.2s ease;
+}
+.info p{
+    margin: 8px 0;
+}

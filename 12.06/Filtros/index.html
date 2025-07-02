@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>galeria com filtros</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <h1>Galeria com filtros CSS</h1>
+
+    <div class="botoes">
+        <button onclick="aplicarFiltro('none')">original</button>
+            <button onclick="aplicarFiltro('grayscale(100%)')">preto e branco</button>"
+     <button onclick="aplicarFiltro('sepia(100%)')">Sépia</button>
+     <button onclick="aplicarFiltro('blur(3px)')">Desfoque</button>
+    </div>
+<div class="galeria" id="galeria">
+    <img src="./img/BABYMONSTER-Debut-Visual-Photos-documents-1(6).jpeg" alt="foto 1">
+    <img src="./img/BABYMONSTER.webp" alt="foto 2">
+    <img src="./img/group-BABYMONSTER-kpop-rookie-of-the-month-gallery-2024-billboard-1548.webp" alt="foto 3">
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+#botaoFujao {
+    position: absolute;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #e3a1ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: top 0.3s ease-out, left 0.3s
+    ease-out, background-color 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#botaoFujao:hover {
+    background-color: #e60000;
+}
+
+img {
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin:0;
+}

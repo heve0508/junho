@@ -1,0 +1,92 @@
+:root {
+    --bg: #ffb1b1;
+    --text: #222;
+    --card: #fff;
+    --accent: #ff96e0;
+}
+
+body.dark {
+    --bg: #d6aef8;
+    --text: #eee;
+    --card: #1e1e1e;
+    --accent: #ac7bff;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: var(--card);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    margin: auto;
+}
+
+#toggleTheme {
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: var(--text);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: var(--card);
+    padding: 10px 15px;
+    border: 1px solid rgb(250, 184, 255);
+    margin-bottom: 10px;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+.botoes {
+    display: flex;
+    gap: 15px;
+}
+
+.botoes button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    opacity: 0.85;
+}
